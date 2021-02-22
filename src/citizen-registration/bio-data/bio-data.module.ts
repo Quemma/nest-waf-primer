@@ -8,6 +8,6 @@ import { BioDatum } from './entities/bio-datum.entity';
 @Module({
   imports: [TypeOrmModule.forFeature([BioDatum])],
   controllers: [BioDataController],
-  providers: [BioDataService]
+  providers: [BioDataService] 
 })
 export class BioDataModule {}
